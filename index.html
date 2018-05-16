@@ -20,7 +20,15 @@
 
     <!-- Custom styles for this template -->
     <link href="css/landing-page.min.css" rel="stylesheet">
-
+    <style>
+	.row{
+		margin-right: 0px;
+		margin-left: 0px;
+	}
+	.dropdown-menu {
+		min-width: 7rem;
+	}
+    </style>
   </head>
 
   <body>
@@ -29,14 +37,18 @@
     <nav class="navbar navbar-light bg-light static-top">
       <div class="container">
         <a class="navbar-brand" href="#">EOS Palliums</a>
-        <a class="btn btn-primary" href="https://www.lediaocha.com/pc/s/7n6xz0vn">Vote</a>
-		<ul class="nav nav-tabs">
-        <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">EN<span class="caret"></span></a>
-            <ul class="dropdown-menu">
-                <li><a href="http://eospalliums.org/index_cn.html">中文</a></li>
-                <li><a href="http://eospalliums.org/index.html">English</a></li>
-            </ul>
-        </li>
+		
+		<ul class="nav nav-tabs">		
+			<li class="dropdown" style="margin-right:.8rem; padding-top:.4rem">
+				<a class="dropdown-toggle" data-toggle="dropdown" href=" ">EN<span class="caret"></span></a>
+				<ul class="dropdown-menu">
+					<li><a href="http://eospalliums.org/index_cn.html">中文</a></li>
+					<li><a href="http://eospalliums.org/index.html">English</a></li>
+				</ul>
+			</li>		
+			<li class="dropdown" >
+				<a class="btn btn-primary" href="https://www.lediaocha.com/pc/s/7n6xz0vn">Vote</a>
+			</li>		
         </ul>
 	  </div>
     </nav>
