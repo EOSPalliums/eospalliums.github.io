@@ -20,7 +20,18 @@
 
     <!-- Custom styles for this template -->
     <link href="css/landing-page.min.css" rel="stylesheet">
-
+    <style>
+	.row{
+		margin-right: 0px;
+		margin-left: 0px;
+	}
+	.dropdown-menu {
+		min-width: 7rem;
+	}
+	.tech-specs p{
+		font-size:.9rem;
+	}
+    </style>
   </head>
 
   <body>
@@ -29,14 +40,18 @@
     <nav class="navbar navbar-light bg-light static-top">
       <div class="container">
         <a class="navbar-brand" href="#">EOS Palliums</a>
-        <a class="btn btn-primary" href="https://www.lediaocha.com/pc/s/7n6xz0vn">Vote</a>
-		<ul class="nav nav-tabs">
-        <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">EN<span class="caret"></span></a>
-            <ul class="dropdown-menu">
-                <li><a href="http://eospalliums.org/index.html">中文</a></li>
-                <li><a href="http://eospalliums.org/index_en.html">English</a></li>
-            </ul>
-        </li>
+		
+		<ul class="nav nav-tabs">		
+			<li class="dropdown" style="margin-right:.8rem; padding-top:.4rem">
+				<a class="dropdown-toggle" data-toggle="dropdown" href=" ">EN<span class="caret"></span></a>
+				<ul class="dropdown-menu">
+					<li><a href="http://eospalliums.org/index_cn.html">中文</a></li>
+					<li><a href="http://eospalliums.org/index.html">English</a></li>
+				</ul>
+			</li>		
+			<li class="dropdown" >
+				<a class="btn btn-primary" href="https://www.lediaocha.com/pc/s/7n6xz0vn">Vote</a>
+			</li>		
         </ul>
 	  </div>
     </nav>
@@ -111,7 +126,7 @@
             <p class="lead mb-0">CDN has three hundred CDN nodes.</p>
 			<p class="lead mb-0">The control capability DDoS of Newdefend Cloud Security.</p>
 			<p class="lead mb-0">Three major telecom interfaces in China.</p>
-			<p class="lead mb-0">Several T flow resources.</p>
+			<p class="lead mb-0">Terabit grade flow resources.</p>
           </div>
         </div>
         <div class="row no-gutters">
@@ -132,7 +147,7 @@
 			<p class="lead mb-0">Shanghai blue cloud, providing reliable, safe and stable operation and maintenance guarantee.</p>
 			<p class="lead mb-0">Data center with the competence of financial level remote backup service.</p>
 			<p class="lead mb-0">7 x 24h monitoring.</p>
-			<p class="lead mb-0">The first time response of the all-weather Operations center and solving the problem.</p>
+			<p class="lead mb-0">First time response of the all-weather Operations center and solving the problem.</p>
           </div>
         </div>
 		
@@ -145,15 +160,65 @@
           <div class="row no-gutters">
           <div class="col-lg-6 mx-auto showcase-text" style="padding-right:1.5rem;padding-left:1.5rem">
 			<h4>Shanghai Blue Cloud Network Technologies Co., Ltd</h4>
-            <p class="lead mb-0">Shanghai Blue Cloud Network Technologies Co., Ltd is wholly-owned subsidiaries of 21Vianet（NASDAQ: VNET）, providing cloud services together with the strategic partner of Microsoft in operating Microsoft Azure, Office 365 and Power BI in China. As a leading local cloud computing service provider, Blue Cloud offers a renowned international cloud computing service platform – secure, mature and intelligent-it is the first official and commercial one of its kind in China.</p>
+            <p class="lead mb-0">Shanghai Blue Cloud Network Technologies Co., Ltd is wholly-owned subsidiaries of 21Vianet (NASDAQ: VNET), providing cloud services together with the strategic partner of Microsoft in operating Microsoft Azure, Office 365 and Power BI in China. As a leading local cloud computing service provider, Blue Cloud offers a renowned international cloud computing service platform – secure, mature and intelligent-it is the first official and commercial one of its kind in China.</p>
 		  </div>
           <div class="col-lg-6 mx-auto showcase-text" style="padding-right:1.5rem;padding-left:1.5rem">
             <h4>CSDN</h4>
             <p class="lead mb-0">Established in 1999, is the largest IT community and service platform in China and provides Chinese software developer and IT practitioners with full services such as knowledge dissemination, career development and software development, meet their need for learning and knowledge sharing and information in career development, establishing a career development circle, and realizing commercialization of technology through software development.</p>
           </div>
         </div>
-            
-         
+      </div>
+    </section>
+
+	<section class="testimonials text-center bg-light ">
+      <div class="container ">
+		  <h2 class="mb-5">TECH SPECS</h2>
+          <div class="row no-gutters tech-specs">
+          <div class="col-lg-4 mx-auto  showcase-text" style="padding-right:1.5rem;padding-left:1.5rem">
+			<h8>Before 3rd.June</h8>
+			<h4>Quasi server</h4>
+            <p class="lead mb-0">1 x Cloud Node (Microsoft Azure D13 V2)</p>
+			<p class="lead mb-0">CPU: 8 vCPU Cores</p>
+			<p class="lead mb-0">RAM: 56GB</p>
+			<p class="lead mb-0">Network: 1000Mbps</p>
+			<p class="lead mb-0">Storage: Local SSD 400GB, Managed OS Disk 1TB</p>
+		  </div>
+          <div class="col-lg-4 mx-auto showcase-text" style="padding-right:1.5rem;padding-left:1.5rem">
+            <h8>After 3rd.June</h8>
+			<h4>Master Server</h4>
+            <p class="lead mb-0">HP DL360 Gen 10 server</p>
+			<p class="lead mb-0">CPU: 2x Intel Xeon 8180M (56 Cores, 2.50 GHz)</p>
+			<p class="lead mb-0">RAM: 1TB RAM</p>
+			<p class="lead mb-0">Network: 10Gbps</p>
+			<p class="lead mb-0">Storage: 4 x 800GB SSD (Expandable to 17 x 800GB SSD)</p>
+          </div>
+          <div class="col-lg-4 mx-auto showcase-text" style="padding-right:1.5rem;padding-left:1.5rem">
+            <h8>After 3rd.June</h8>
+			<h4>Referral Server</h4>
+            <p class="lead mb-0">1 x Cloud Node (Microsoft Azure E64 V3)</p>
+			<p class="lead mb-0">CPU: 64 vCPU Cores</p>
+			<p class="lead mb-0">RAM: 432GB</p>
+			<p class="lead mb-0">Network: 30Gbps</p>
+			<p class="lead mb-0">Storage: Local SSD 1.6TB, Managed OS Disk 2TB</p>
+          </div>
+        </div>
+      </div>
+    </section>
+	
+    <!-- Testimonials -->
+    <section class="testimonials text-center">
+      <div class="container">
+        <h2 class="mb-5">Our Consultant</h2>
+        <div class="row">
+
+          <div class="col-lg-12">
+            <div class="testimonial-item mx-auto mb-5 mb-lg-0">
+              <img class="img-fluid rounded-circle mb-3" src="https://s1.ax1x.com/2018/05/04/CtcKk6.png" alt="">
+              <h5>Yuan Dao</h5>
+              <p class="font-weight-light mb-0">Pallet thinker. Founder of Token economy. Director of Z-Park Blockchain Industry Alliance. Promoter of Blockchain and “Tong Zheng“（Token）conception. Graduated from the Department of Electrical Engineering of Tsinghua University in 1991. Engaged in the Internet industry for more than 20 years. Leader of the Internet infrastructure field.</p>
+            </div>
+          </div>
+		</div>
       </div>
     </section>
 	
@@ -163,20 +228,29 @@
         <h2 class="mb-5">Our Team</h2>
         <div class="row">
 
-          <div class="col-lg-3">
-            <div class="testimonial-item mx-auto mb-5 mb-lg-0">
-              <img class="img-fluid rounded-circle mb-3" src="https://s1.ax1x.com/2018/05/04/CtcKk6.png" alt="">
-              <h5>Yuan Dao</h5>
-              <p class="font-weight-light mb-0">Pallet thinker. Founder of Token economy. Director of Z-Park Blockchain Industry Alliance. Promoter of Blockchain and “Tong Zheng“（Token）conception. Graduated from the Department of Electrical Engineering of Tsinghua University in 1991. Engaged in the Internet industry for more than 20 years. Leader of the Internet infrastructure field.</p>
-            </div>
-          </div>
-          <div class="col-lg-3">
+          <div class="col-lg-4">
             <div class="testimonial-item mx-auto mb-5 mb-lg-0">
               <img class="img-fluid rounded-circle mb-3" src="https://s1.ax1x.com/2018/05/04/CtcGXd.png" alt="">
               <h5>Meng Yan</h5>
               <p class="font-weight-light mb-0">Mr Meng is the Vice President of CSDN, which is a very well-known developers’ network in the open source community. He is also one of the founders and CEO of PDJ Education.</p>
             </div>
           </div>
+          <div class="col-lg-4">
+            <div class="testimonial-item mx-auto mb-5 mb-lg-0">
+              <img class="img-fluid rounded-circle mb-3" src="https://s1.ax1x.com/2018/05/04/CtcN7t.png" alt="">
+              <h5>Zhang XianGuo</h5>
+              <p class="font-weight-light mb-0">With more than 15 years in research and development and product experience in HuaiWei, Chinacache, LeEco, Motorola, Nokia and others. In the area of cloud computing, Mr Zhang has vast pool of experience in CDN, IoT, In-car networking technology, wireless communications and communications equipment. He is currently the Divisional General Manager with WiFire tasked with the overseeing of the entire operations for the company.</p>
+            </div>
+          </div>
+		  <div class="col-lg-4">
+            <div class="testimonial-item mx-auto mb-5 mb-lg-0">
+              <img class="img-fluid rounded-circle mb-3" src="https://s1.ax1x.com/2018/05/04/Ctct0I.png" alt="">
+              <h5>Dr. Xinman Li</h5>
+              <p class="font-weight-light mb-0">A PhD. holder in Northeastern University, and served as a manager in the Operation Center for China Education and Research Network (CERNET), and the General Manager in Neusoft’s Network Research and Development. Mr Li is currently the General Manager in the Online File Sharing Service Department for 21vianet.</p>
+            </div>
+          </div>
+        
+		<div class="row">
           <div class="col-lg-3">
             <div class="testimonial-item mx-auto mb-5 mb-lg-0">
               <img class="img-fluid rounded-circle mb-3" src="https://s1.ax1x.com/2018/05/04/CtcYnA.jpg" alt="">
@@ -189,23 +263,6 @@
               <img class="img-fluid rounded-circle mb-3" src="https://s1.ax1x.com/2018/05/04/Ctc86H.png" alt="">
               <h5>Kenneth Chen</h5>
               <p class="font-weight-light mb-0">Mr. Chen is one of the co-founders and CTO of Asia-Pacific Online Network Co. He is also the co-founder of Genie Networks and IDHub and has served as its Chief Strategist for the former and CTO for the latter. He has more than 20 years in product design and operation experience.</p>
-            </div>
-          </div>
-		  
-        
-		<div class="row">
-			<div class="col-lg-3">
-            <div class="testimonial-item mx-auto mb-5 mb-lg-0">
-              <img class="img-fluid rounded-circle mb-3" src="https://s1.ax1x.com/2018/05/04/Ctct0I.png" alt="">
-              <h5>Dr. Xinman Li</h5>
-              <p class="font-weight-light mb-0">A PhD. holder in Northeastern University, and served as a manager in the Operation Center for China Education and Research Network (CERNET), and the General Manager in Neusoft’s Network Research and Development. Mr Li is currently the General Manager in the Online File Sharing Service Department for 21vianet.</p>
-            </div>
-          </div>
-          <div class="col-lg-3">
-            <div class="testimonial-item mx-auto mb-5 mb-lg-0">
-              <img class="img-fluid rounded-circle mb-3" src="https://s1.ax1x.com/2018/05/04/CtcN7t.png" alt="">
-              <h5>Zhang XianGuo</h5>
-              <p class="font-weight-light mb-0">With more than 15 years in research and development and product experience in HuaiWei, Chinacache, LeEco, Motorola, Nokia and others. In the area of cloud computing, Mr Zhang has vast pool of experience in CDN, IoT, In-car networking technology, wireless communications and communications equipment. He is currently the Divisional General Manager with WiFire tasked with the overseeing of the entire operations for the company.</p>
             </div>
           </div>
           <div class="col-lg-3">
@@ -244,7 +301,7 @@
                 <i class="fa fa-shield m-auto text-primary"></i>
               </div>
               <!--<h3>Bootstrap 4 Ready</h3>-->
-              <p class="lead mb-0">Several T flow resources, with the control capability of DDoS</p>
+              <p class="lead mb-0">Terabit grade flow resources, with the control capability of DDoS</p>
             </div>
           </div>
           <div class="col-lg-4">
@@ -253,7 +310,7 @@
                 <i class="fa fa-dashboard m-auto text-primary"></i>
               </div>
               <!--<h3>Easy to Use</h3>-->
-              <p class="lead mb-0">Telecom and Financial Grade with 24 x 7 Operation and Maintenance Capabilities.</p>
+              <p class="lead mb-0">Telecom and financial grade with 24 x 7 operation and maintenance capabilities.</p>
             </div>
           </div>
 		  <div class="col-lg-4">
