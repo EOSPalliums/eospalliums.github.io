@@ -1,0 +1,58 @@
+{
+    "producer_account_name": "eospalliumss",
+    "producer_public_key": "EOS62ThFzb79uGUSedeE2rCLucFAKBoEEmfNyhfd7Y8Qcr9EvCYny",
+    "org": {
+      "candidate_name": "EOS Palliums",
+      "website": "http://eospalliums.org",
+      "code_of_conduct":"https://steemit.com/eos/@hank168/campaign-plan-for-eos-palliums-super-nodes",
+      "email":"eospalliums@gmail.com",
+      "branding":{
+        "logo_256":"http://eospalliums.org/eospalliums-256.png",
+        "logo_1024":"http://eospalliums.org/eospalliums-512.png",
+        "logo_svg":"http://eospalliums.org/eospalliums-512.svg"
+      },
+      "location": {
+        "name": "Beijing",
+        "country": "China",
+        "latitude": ,
+        "longitude": 
+      },
+      "social": {
+        "steemit": "eospalliums",
+        "twitter": "eospalliums",
+        "youtube": "",
+        "facebook": "eospalliums",
+        "github":"eospalliums",
+        "reddit": "",
+        "keybase": "",
+        "telegram": "eospalliums",
+        "wechat":"eospalliums"
+      }
+    },
+    "nodes": [
+      {
+        "location": {
+          "name": "Beijing",
+          "country": "China",
+          "latitude": ,
+          "longitude": 
+        },
+        "is_producer": false,
+        "p2p_endpoint": "peer1.eospalliums.org:9876",
+        "api_endpoint": "peer1.eospalliums.org:8888",
+        "ssl_endpoint": ""
+      },
+      {
+        "location": {
+          "name": "Beijing",
+          "country": "China",
+          "latitude": ,
+          "longitude": 
+        },
+        "is_producer": false,
+        "p2p_endpoint": "peer2.eospalliums.org:9876",
+        "api_endpoint": "peer2.eospalliums.org:8888",
+        "ssl_endpoint": ""
+      }
+    ]
+  }
