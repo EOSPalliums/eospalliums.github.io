@@ -14,8 +14,8 @@
       "location": {
         "name": "Beijing",
         "country": "China",
-        "latitude": ,
-        "longitude": 
+        "latitude": 39.978360,
+        "longitude": 116.498880
       },
       "social": {
         "steemit": "eospalliums",
@@ -34,8 +34,8 @@
         "location": {
           "name": "Beijing",
           "country": "China",
-          "latitude": ,
-          "longitude": 
+          "latitude": 978360,
+          "longitude": 116.498880
         },
         "is_producer": false,
         "p2p_endpoint": "peer1.eospalliums.org:9876",
@@ -46,8 +46,8 @@
         "location": {
           "name": "Beijing",
           "country": "China",
-          "latitude": ,
-          "longitude": 
+          "latitude": 39.978360,
+          "longitude": 116.498880
         },
         "is_producer": false,
         "p2p_endpoint": "peer2.eospalliums.org:9876",
